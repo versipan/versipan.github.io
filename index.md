@@ -19,8 +19,6 @@ Thanks for visiting! Feel free to write me a note and ask about anything UX.
 
 ____
 
-<br />
-
 
 <span class="contacticon center">
 	<a href="mailto:vero.sipeeva@gmail.com"><i class="fa fa-envelope-square"></i></a>
@@ -28,7 +26,4 @@ ____
 	<a href="https://twitter.com/uxvero" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
 
-<div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
-</div>
 

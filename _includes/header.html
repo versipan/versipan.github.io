@@ -1,0 +1,24 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!-- {{ site.title }} instead of blog -->
+        {% for p in site.data.navigation %}
+          {% if p.title %}
+          {% if page.url == p.url %} 
+            <a class="page-link active" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+          {% else %}
+            <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>

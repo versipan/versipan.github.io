@@ -1,0 +1,33 @@
+# Site settings
+title: UxVero
+email: vero.sipeeva@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple, whitespace, helvetica based portfolio theme.
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+twitter_username: uxvero
+github_username:  versipan
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+plugins:
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/blog/:num/"
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
